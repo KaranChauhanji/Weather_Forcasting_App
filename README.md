@@ -28,11 +28,10 @@ This web application provides users with weather forecasts for a specified locat
 4. Start searching for weather forecasts by entering city names in the search bar.
 
 ## Experience
-Deployed the application on Netlify. You can access it [here](YOUR_NETLIFY_LINK).
+Deployed the application on Netlify. You can access it [here](weatherforecastingappmasai.netlify.app).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/189aef5e-cd60-4daa-ac38-72f51bba5469/deploy-status)](https://app.netlify.com/sites/weatherforecastingappmasai/deploys)
 
 ## Credits
 - **OpenWeatherMap**: Weather data API.
 - **Google Maps API**: Embedding location maps.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
