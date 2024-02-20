@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP I</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="android-chrome-192x192.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Weather☁️</h1>
+            <form> 
+                <input type="text" placeholder="Enter City" id="input">
+                <button type="submit">Search</button>
+            </form>
+            <div>
+                <button>Navigator</button>
+                <button>Different Weather?</button>
+                <button>Metric: *C, m/s </button>
+                <button>imperial: *F, mph</button>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container">
+            <p><span>Temprature:</span></p>
+            <p><span>Mininum-Temprature:</span></p>
+            <p><span>Max-Temprature:</span></p>
+            <p><span>Wind:</span></p>
+            <p><span>Clouds:</span></p>
+            <p><span>Sunrise:</span></p>
+            <p><span>Sunset:</span></p>
+        </div>
+
+        <iframe
+        width="600"
+        height="450"
+        style="border:0"
+        loading="lazy"
+        src="https://www.google.com/maps?q=&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        >
+      </iframe>
+    </section>
+
+    <section class="forecast">
+        <h2>5-Day Forecast</h2>
+        <div class="forecast-container"></div>
+    </section>
+
+</body>
+<script src="script.js"></script>
+</html>
